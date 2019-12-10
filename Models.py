@@ -10,26 +10,6 @@ def info(model,label):
     print("------------------------------------------------------------------------------")
     model.summary(); 
 
-def LeNet(w,h,c,n_classes):
-    inputs = Input(shape=[h,w,c],name='Input1')
-    x = Conv2D(20,[5,5],strides=[1,1],padding='same',activation='tanh',name='Conv1')(inputs)
-    x = MaxPool2D(pool_size=[2,2],strides = [2,2],name='pooling1')(x)
-
-    x = Conv2D(20,[5,5],strides=[1,1],padding='same',activation='tanh',name='Conv2')(x)
-    x = MaxPool2D(pool_size=[2,2],strides = [2,2],name='pooling2')(x)
-
-    x = Flatten(name='flatten')(x)
-    x = Dense(500,activation='tanh',name='Dense1')(x)
-    
-    x = Dense(n_classes,activation='softmax',name='Output')(x)
-
-    model = Model(inputs=inputs,outputs=x)
-
-    label = "LeNet"
-    info(model,label)
-    return(model,label)
-
-
 def vgg16_c(w,h,c,n_classes):
     inputs = Input(shape=[h,w,c],name='Input1')
 
@@ -83,6 +63,8 @@ if __name__ == "__main__":
             model,label = LeNet(w,h,c,qtd)
         elif m == "vgg16_c":
             model,label = vgg16_c(w,h,c,qtd)
+        elif m == "vgg16_c2":
+            model,label = vgg16_c2(w,h,c,qtd)
         else:
             print("Não encontrado")
 

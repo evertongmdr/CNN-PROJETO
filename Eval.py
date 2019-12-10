@@ -27,12 +27,14 @@ if __name__ == "__main__":
     
     x,y,n = LoadEvalDataset()
 
-    model,model_label = LeNet(330,330,3,n)
+    model,model_label = vgg16_c(330,330,3,n)
+
+    peso_path = "pesos_vgg16_c_treino_2/peso_vgg16_c.62-0.896.hdf5"
 
     opt = Adam(lr=0.0001,decay=0.1e-6)
     model.compile(optimizer=opt,loss='categorical_crossentropy',metrics=['accuracy'])
     try:
-        model.load_weights(filepath='{} peso.hdf5'.format(model_label))
+        model.load_weights(filepath=peso_path)
         print("Loaded")
     except Exception as ex:    
         print(ex)

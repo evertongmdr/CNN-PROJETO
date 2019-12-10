@@ -1,0 +1,292 @@
+Epoch 1/100
+2019-12-09 08:46:43.355701: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_100.dll
+2019-12-09 08:46:43.877092: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2019-12-09 08:46:45.482216: W tensorflow/stream_executor/cuda/redzone_allocator.cc:312] Internal: Invoking ptxas not supported on Windows
+Relying on driver to perform ptx compilation. This message will be only logged once.
+17248/17248 [==============================] - 548s 32ms/step - loss: 2.9270 - acc: 0.0977 - val_loss: 1.9127 - val_acc: 0.2955
+
+Epoch 00001: saving model to pesos//peso_vgg16_c.01-1.913.hdf5
+WARNING:tensorflow:From C:\Users\danie\Anaconda3\envs\CNN\lib\site-packages\keras\callbacks.py:995: The name tf.Summary is deprecated. Please use tf.compat.v1.Summary instead.
+
+Epoch 2/100
+17248/17248 [==============================] - 534s 31ms/step - loss: 1.4611 - acc: 0.4325 - val_loss: 1.2284 - val_acc: 0.5514
+
+Epoch 00002: saving model to pesos//peso_vgg16_c.02-1.228.hdf5
+Epoch 3/100
+17248/17248 [==============================] - 524s 30ms/step - loss: 0.9518 - acc: 0.6364 - val_loss: 0.8823 - val_acc: 0.7028
+
+Epoch 00003: saving model to pesos//peso_vgg16_c.03-0.882.hdf5
+Epoch 4/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.7151 - acc: 0.7321 - val_loss: 1.4882 - val_acc: 0.5920
+
+Epoch 00004: saving model to pesos//peso_vgg16_c.04-1.488.hdf5
+Epoch 5/100
+17248/17248 [==============================] - 531s 31ms/step - loss: 0.5551 - acc: 0.7905 - val_loss: 0.6987 - val_acc: 0.7707
+
+Epoch 00005: saving model to pesos//peso_vgg16_c.05-0.699.hdf5
+Epoch 6/100
+17248/17248 [==============================] - 531s 31ms/step - loss: 0.4453 - acc: 0.8295 - val_loss: 1.1094 - val_acc: 0.6868
+
+Epoch 00006: saving model to pesos//peso_vgg16_c.06-1.109.hdf5
+Epoch 7/100
+17248/17248 [==============================] - 529s 31ms/step - loss: 0.3939 - acc: 0.8512 - val_loss: 0.7191 - val_acc: 0.7762
+
+Epoch 00007: saving model to pesos//peso_vgg16_c.07-0.719.hdf5
+Epoch 8/100
+17248/17248 [==============================] - 522s 30ms/step - loss: 0.3379 - acc: 0.8705 - val_loss: 0.7645 - val_acc: 0.7749
+
+Epoch 00008: saving model to pesos//peso_vgg16_c.08-0.765.hdf5
+Epoch 9/100
+17248/17248 [==============================] - 536s 31ms/step - loss: 0.3062 - acc: 0.8815 - val_loss: 0.6075 - val_acc: 0.8323
+
+Epoch 00009: saving model to pesos//peso_vgg16_c.09-0.607.hdf5
+Epoch 10/100
+17248/17248 [==============================] - 531s 31ms/step - loss: 0.2697 - acc: 0.8932 - val_loss: 0.6281 - val_acc: 0.8117
+
+Epoch 00010: saving model to pesos//peso_vgg16_c.10-0.628.hdf5
+Epoch 11/100
+17248/17248 [==============================] - 532s 31ms/step - loss: 0.2344 - acc: 0.9082 - val_loss: 0.7388 - val_acc: 0.8008
+
+Epoch 00011: saving model to pesos//peso_vgg16_c.11-0.739.hdf5
+Epoch 12/100
+17248/17248 [==============================] - 529s 31ms/step - loss: 0.2094 - acc: 0.9162 - val_loss: 0.6773 - val_acc: 0.8276
+
+Epoch 00012: saving model to pesos//peso_vgg16_c.12-0.677.hdf5
+Epoch 13/100
+17248/17248 [==============================] - 531s 31ms/step - loss: 0.1874 - acc: 0.9254 - val_loss: 0.8857 - val_acc: 0.7722
+
+Epoch 00013: saving model to pesos//peso_vgg16_c.13-0.886.hdf5
+Epoch 14/100
+17248/17248 [==============================] - 530s 31ms/step - loss: 0.1921 - acc: 0.9262 - val_loss: 0.7003 - val_acc: 0.8203
+
+Epoch 00014: saving model to pesos//peso_vgg16_c.14-0.700.hdf5
+Epoch 15/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.1640 - acc: 0.9360 - val_loss: 0.7321 - val_acc: 0.8162
+
+Epoch 00015: saving model to pesos//peso_vgg16_c.15-0.732.hdf5
+Epoch 16/100
+17248/17248 [==============================] - 530s 31ms/step - loss: 0.1560 - acc: 0.9402 - val_loss: 0.7301 - val_acc: 0.8198
+
+Epoch 00016: saving model to pesos//peso_vgg16_c.16-0.730.hdf5
+Epoch 17/100
+17248/17248 [==============================] - 531s 31ms/step - loss: 0.1516 - acc: 0.9421 - val_loss: 0.6282 - val_acc: 0.8533
+
+Epoch 00017: saving model to pesos//peso_vgg16_c.17-0.628.hdf5
+Epoch 18/100
+17248/17248 [==============================] - 531s 31ms/step - loss: 0.1336 - acc: 0.9525 - val_loss: 1.0800 - val_acc: 0.7658
+
+Epoch 00018: saving model to pesos//peso_vgg16_c.18-1.080.hdf5
+Epoch 19/100
+17248/17248 [==============================] - 529s 31ms/step - loss: 0.1146 - acc: 0.9585 - val_loss: 0.7221 - val_acc: 0.8434
+
+Epoch 00019: saving model to pesos//peso_vgg16_c.19-0.722.hdf5
+Epoch 20/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.1072 - acc: 0.9620 - val_loss: 0.8069 - val_acc: 0.8268
+
+Epoch 00020: saving model to pesos//peso_vgg16_c.20-0.807.hdf5
+Epoch 21/100
+17248/17248 [==============================] - 530s 31ms/step - loss: 0.1004 - acc: 0.9663 - val_loss: 1.0466 - val_acc: 0.7802
+
+Epoch 00021: saving model to pesos//peso_vgg16_c.21-1.047.hdf5
+Epoch 22/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0958 - acc: 0.9707 - val_loss: 0.6197 - val_acc: 0.8645
+
+Epoch 00022: saving model to pesos//peso_vgg16_c.22-0.620.hdf5
+Epoch 23/100
+17248/17248 [==============================] - 531s 31ms/step - loss: 0.0833 - acc: 0.9738 - val_loss: 0.7020 - val_acc: 0.8563
+
+Epoch 00023: saving model to pesos//peso_vgg16_c.23-0.702.hdf5
+Epoch 24/100
+17248/17248 [==============================] - 529s 31ms/step - loss: 0.0848 - acc: 0.9737 - val_loss: 0.7625 - val_acc: 0.8429
+
+Epoch 00024: saving model to pesos//peso_vgg16_c.24-0.762.hdf5
+Epoch 25/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0740 - acc: 0.9767 - val_loss: 0.8231 - val_acc: 0.8400
+
+Epoch 00025: saving model to pesos//peso_vgg16_c.25-0.823.hdf5
+Epoch 26/100
+17248/17248 [==============================] - 524s 30ms/step - loss: 0.0654 - acc: 0.9796 - val_loss: 0.7901 - val_acc: 0.8491
+
+Epoch 00026: saving model to pesos//peso_vgg16_c.26-0.790.hdf5
+Epoch 27/100
+17248/17248 [==============================] - 528s 31ms/step - loss: 0.0590 - acc: 0.9828 - val_loss: 0.7876 - val_acc: 0.8508
+
+Epoch 00027: saving model to pesos//peso_vgg16_c.27-0.788.hdf5
+Epoch 28/100
+17248/17248 [==============================] - 523s 30ms/step - loss: 0.0686 - acc: 0.9790 - val_loss: 0.6718 - val_acc: 0.8742
+
+Epoch 00028: saving model to pesos//peso_vgg16_c.28-0.672.hdf5
+Epoch 29/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0573 - acc: 0.9835 - val_loss: 0.9355 - val_acc: 0.8295
+
+Epoch 00029: saving model to pesos//peso_vgg16_c.29-0.935.hdf5
+Epoch 30/100
+17248/17248 [==============================] - 528s 31ms/step - loss: 0.0590 - acc: 0.9831 - val_loss: 0.9702 - val_acc: 0.8144
+
+Epoch 00030: saving model to pesos//peso_vgg16_c.30-0.970.hdf5
+Epoch 31/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0533 - acc: 0.9839 - val_loss: 0.8679 - val_acc: 0.8456
+
+Epoch 00031: saving model to pesos//peso_vgg16_c.31-0.868.hdf5
+Epoch 32/100
+17248/17248 [==============================] - 521s 30ms/step - loss: 0.0592 - acc: 0.9831 - val_loss: 0.6958 - val_acc: 0.8769
+
+Epoch 00032: saving model to pesos//peso_vgg16_c.32-0.696.hdf5
+Epoch 33/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0532 - acc: 0.9841 - val_loss: 0.6596 - val_acc: 0.8724
+
+Epoch 00033: saving model to pesos//peso_vgg16_c.33-0.660.hdf5
+Epoch 34/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0523 - acc: 0.9853 - val_loss: 0.7001 - val_acc: 0.8650
+
+Epoch 00034: saving model to pesos//peso_vgg16_c.34-0.700.hdf5
+Epoch 35/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0572 - acc: 0.9850 - val_loss: 0.8913 - val_acc: 0.8159
+
+Epoch 00035: saving model to pesos//peso_vgg16_c.35-0.891.hdf5
+Epoch 36/100
+17248/17248 [==============================] - 523s 30ms/step - loss: 0.0510 - acc: 0.9856 - val_loss: 0.6432 - val_acc: 0.8740
+
+Epoch 00036: saving model to pesos//peso_vgg16_c.36-0.643.hdf5
+Epoch 37/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0433 - acc: 0.9867 - val_loss: 0.8147 - val_acc: 0.8536
+
+Epoch 00037: saving model to pesos//peso_vgg16_c.37-0.815.hdf5
+Epoch 38/100
+17248/17248 [==============================] - 526s 30ms/step - loss: 0.0448 - acc: 0.9875 - val_loss: 0.8772 - val_acc: 0.8382
+
+Epoch 00038: saving model to pesos//peso_vgg16_c.38-0.877.hdf5
+Epoch 39/100
+17248/17248 [==============================] - 523s 30ms/step - loss: 0.0477 - acc: 0.9883 - val_loss: 0.8864 - val_acc: 0.8414
+
+Epoch 00039: saving model to pesos//peso_vgg16_c.39-0.886.hdf5
+Epoch 40/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0429 - acc: 0.9878 - val_loss: 0.8660 - val_acc: 0.8477
+
+Epoch 00040: saving model to pesos//peso_vgg16_c.40-0.866.hdf5
+Epoch 41/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0430 - acc: 0.9890 - val_loss: 0.7589 - val_acc: 0.8633
+
+Epoch 00041: saving model to pesos//peso_vgg16_c.41-0.759.hdf5
+Epoch 42/100
+17248/17248 [==============================] - 523s 30ms/step - loss: 0.0456 - acc: 0.9874 - val_loss: 0.7964 - val_acc: 0.8534
+
+Epoch 00042: saving model to pesos//peso_vgg16_c.42-0.796.hdf5
+Epoch 43/100
+17248/17248 [==============================] - 532s 31ms/step - loss: 0.0425 - acc: 0.9886 - val_loss: 0.8101 - val_acc: 0.8482
+
+Epoch 00043: saving model to pesos//peso_vgg16_c.43-0.810.hdf5
+Epoch 44/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0378 - acc: 0.9895 - val_loss: 1.1232 - val_acc: 0.8142
+
+Epoch 00044: saving model to pesos//peso_vgg16_c.44-1.123.hdf5
+Epoch 45/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0327 - acc: 0.9907 - val_loss: 0.7981 - val_acc: 0.8591
+
+Epoch 00045: saving model to pesos//peso_vgg16_c.45-0.798.hdf5
+Epoch 46/100
+17248/17248 [==============================] - 526s 30ms/step - loss: 0.0479 - acc: 0.9868 - val_loss: 0.7597 - val_acc: 0.8620
+
+Epoch 00046: saving model to pesos//peso_vgg16_c.46-0.760.hdf5
+Epoch 47/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0420 - acc: 0.9891 - val_loss: 0.9257 - val_acc: 0.8563
+
+Epoch 00047: saving model to pesos//peso_vgg16_c.47-0.926.hdf5
+Epoch 48/100
+17248/17248 [==============================] - 528s 31ms/step - loss: 0.0336 - acc: 0.9900 - val_loss: 0.8416 - val_acc: 0.8631
+
+Epoch 00048: saving model to pesos//peso_vgg16_c.48-0.842.hdf5
+Epoch 49/100
+17248/17248 [==============================] - 526s 31ms/step - loss: 0.0391 - acc: 0.9894 - val_loss: 1.0829 - val_acc: 0.8121
+
+Epoch 00049: saving model to pesos//peso_vgg16_c.49-1.083.hdf5
+Epoch 50/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0318 - acc: 0.9908 - val_loss: 0.7855 - val_acc: 0.8611
+
+Epoch 00050: saving model to pesos//peso_vgg16_c.50-0.786.hdf5
+Epoch 51/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0307 - acc: 0.9917 - val_loss: 0.9674 - val_acc: 0.8472
+
+Epoch 00051: saving model to pesos//peso_vgg16_c.51-0.967.hdf5
+Epoch 52/100
+17248/17248 [==============================] - 529s 31ms/step - loss: 0.0400 - acc: 0.9888 - val_loss: 0.8327 - val_acc: 0.8593
+
+Epoch 00052: saving model to pesos//peso_vgg16_c.52-0.833.hdf5
+Epoch 53/100
+17248/17248 [==============================] - 528s 31ms/step - loss: 0.0355 - acc: 0.9909 - val_loss: 0.7434 - val_acc: 0.8759
+
+Epoch 00053: saving model to pesos//peso_vgg16_c.53-0.743.hdf5
+Epoch 54/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0340 - acc: 0.9909 - val_loss: 0.7130 - val_acc: 0.8710
+
+Epoch 00054: saving model to pesos//peso_vgg16_c.54-0.713.hdf5
+Epoch 55/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0361 - acc: 0.9907 - val_loss: 0.7794 - val_acc: 0.8637
+
+Epoch 00055: saving model to pesos//peso_vgg16_c.55-0.779.hdf5
+Epoch 56/100
+17248/17248 [==============================] - 524s 30ms/step - loss: 0.0399 - acc: 0.9896 - val_loss: 1.0540 - val_acc: 0.8245
+
+Epoch 00056: saving model to pesos//peso_vgg16_c.56-1.054.hdf5
+Epoch 57/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0270 - acc: 0.9923 - val_loss: 0.7241 - val_acc: 0.8663
+
+Epoch 00057: saving model to pesos//peso_vgg16_c.57-0.724.hdf5
+Epoch 58/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0376 - acc: 0.9911 - val_loss: 0.8082 - val_acc: 0.8626
+
+Epoch 00058: saving model to pesos//peso_vgg16_c.58-0.808.hdf5
+Epoch 59/100
+17248/17248 [==============================] - 524s 30ms/step - loss: 0.0365 - acc: 0.9910 - val_loss: 0.7466 - val_acc: 0.8702
+
+Epoch 00059: saving model to pesos//peso_vgg16_c.59-0.747.hdf5
+Epoch 60/100
+17248/17248 [==============================] - 526s 30ms/step - loss: 0.0273 - acc: 0.9923 - val_loss: 0.7265 - val_acc: 0.8695
+
+Epoch 00060: saving model to pesos//peso_vgg16_c.60-0.727.hdf5
+Epoch 61/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0418 - acc: 0.9893 - val_loss: 0.7863 - val_acc: 0.8601
+
+Epoch 00061: saving model to pesos//peso_vgg16_c.61-0.786.hdf5
+Epoch 62/100
+17248/17248 [==============================] - 528s 31ms/step - loss: 0.0276 - acc: 0.9933 - val_loss: 0.8959 - val_acc: 0.8556
+
+Epoch 00062: saving model to pesos//peso_vgg16_c.62-0.896.hdf5
+Epoch 63/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0289 - acc: 0.9917 - val_loss: 0.8556 - val_acc: 0.8601
+
+Epoch 00063: saving model to pesos//peso_vgg16_c.63-0.856.hdf5
+Epoch 64/100
+17248/17248 [==============================] - 528s 31ms/step - loss: 0.0409 - acc: 0.9910 - val_loss: 0.7712 - val_acc: 0.8541
+
+Epoch 00064: saving model to pesos//peso_vgg16_c.64-0.771.hdf5
+Epoch 65/100
+17248/17248 [==============================] - 536s 31ms/step - loss: 0.0246 - acc: 0.9930 - val_loss: 0.7922 - val_acc: 0.8543
+
+Epoch 00065: saving model to pesos//peso_vgg16_c.65-0.792.hdf5
+Epoch 66/100
+17248/17248 [==============================] - 526s 31ms/step - loss: 0.0222 - acc: 0.9944 - val_loss: 0.7052 - val_acc: 0.8754
+
+Epoch 00066: saving model to pesos//peso_vgg16_c.66-0.705.hdf5
+Epoch 67/100
+17248/17248 [==============================] - 535s 31ms/step - loss: 0.0424 - acc: 0.9889 - val_loss: 1.2164 - val_acc: 0.8191
+
+Epoch 00067: saving model to pesos//peso_vgg16_c.67-1.216.hdf5
+Epoch 68/100
+17248/17248 [==============================] - 524s 30ms/step - loss: 0.0290 - acc: 0.9921 - val_loss: 0.6968 - val_acc: 0.8772
+
+Epoch 00068: saving model to pesos//peso_vgg16_c.68-0.697.hdf5
+Epoch 69/100
+17248/17248 [==============================] - 527s 31ms/step - loss: 0.0318 - acc: 0.9918 - val_loss: 0.7199 - val_acc: 0.8771
+
+Epoch 00069: saving model to pesos//peso_vgg16_c.69-0.720.hdf5
+Epoch 70/100
+17248/17248 [==============================] - 522s 30ms/step - loss: 0.0307 - acc: 0.9921 - val_loss: 1.1178 - val_acc: 0.7992
+
+Epoch 00070: saving model to pesos//peso_vgg16_c.70-1.118.hdf5
+Epoch 71/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0317 - acc: 0.9918 - val_loss: 1.2320 - val_acc: 0.7978
+
+Epoch 00071: saving model to pesos//peso_vgg16_c.71-1.232.hdf5
+Epoch 72/100
+17248/17248 [==============================] - 525s 30ms/step - loss: 0.0225 - acc: 0.9943 - val_loss: 0.7911 - val_acc: 0.8503
