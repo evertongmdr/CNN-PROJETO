@@ -106,17 +106,17 @@ def inceptionv4(w,h,c,n_classes):
 
     x = Steam(inputs,'steam_')
 
-    for i in range(0, 4):
+    for i in range(0, 2):
         x = Inception_A(x, 'a_{}_'.format(i))
 
-    x = reduction(x,'ra_',224,192,256,384)
+    x = reduction(x,'ra_',112,96,128,192)
 
-    for i in range(0, 7):
+    for i in range(0, 4):
         x = Inception_B(x, 'b_{}_'.format(i))
 
-    x = reduction(x,'rb_',224,192,256,384)
+    x = reduction(x,'rb_',112,96,128,192)
 
-    for i in range(0, 3):
+    for i in range(0, 2):
         x = Inception_C(x, 'c_ins_c_{}_'.format(i))
 
     x = AveragePooling2D(pool_size=(2, 2), strides=(2, 2), padding='same', name='avg')(x)

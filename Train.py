@@ -16,8 +16,8 @@ import time
 w = 330
 h = 330
 c = 3
-batch_size = 4
-epochs = 100
+batch_size = 1
+epochs = 50
 
 tini = time.time()
 
@@ -46,7 +46,7 @@ y_train = keras.utils.to_categorical(y_train)
 y_test = keras.utils.to_categorical(y_test)
 
 # modelo
-model,model_label = rocket(w,h,c,n_classes)
+model,model_label = inceptionv4(w,h,c,n_classes)
 
 opt = Adam(lr=0.0001,decay=0.1e-6)
 model.compile(optimizer=opt,loss='categorical_crossentropy',metrics=['accuracy'])
