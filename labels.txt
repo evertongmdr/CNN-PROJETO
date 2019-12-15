@@ -7,8 +7,6 @@ train\EnterococcusFaecium
 train\EscherichiaColi
 train\LactobacillusCasei
 train\LactobacillusCrispatus
-train\LactobacillusDelbrueckii
-train\LactobacillusGasseri
 train\LactobacillusJehnsenii
 train\LactobacillusJohnsonii
 train\LactobacillusParacasei
@@ -19,7 +17,6 @@ train\LactobacillusSalivarius
 train\MicrococcusSpp
 train\NeisseriaGonorrhoeae
 train\PorfyromonasGingivalis
-train\PropionibacteriumAcnes
 train\Proteus
 train\PseudomonasAeruginosa
 train\StaphylococcusAureus

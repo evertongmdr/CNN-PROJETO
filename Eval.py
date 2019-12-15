@@ -6,7 +6,7 @@ from keras.optimizers import Adam
 
 def LoadEvalDataset():
     ev = DataSetBacteria()
-    ev.load('dataset/eval_qtd_classes(28).npz',True)
+    ev.load('dataset/eval_qtd_classes(25).npz',True)
     x_ev, y_ev = ev.getDataSet()
     x_ev = np.float32(x_ev)
     x_ev = x_ev/255
