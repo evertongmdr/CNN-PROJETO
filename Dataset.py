@@ -1,4 +1,5 @@
 import numpy as np 
+import math
 
 class DataSetBacteria (object): 
     def __init__(self):
@@ -33,13 +34,17 @@ class DataSetBacteria (object):
         for i in range(0,len(self.y)):
             self.y[i] = self.classes.index(self.y[i])
 
-
     def shuffle(self):
         random_index = np.arange(self.x.shape[0])
         np.random.shuffle(random_index)
         self.x = self.x[random_index]
         self.y = self.y[random_index]
 
+    def normalize(self):  
+        self.x = np.float32(self.x)      
+        for i in range(len(self.x)):
+            self.x[i] = self.x[i]/255    
+            
 if __name__=='__main__':
     train = DataSetBacteria()
     train.load('./bin/test_qtd_classes(3).npz',True)
